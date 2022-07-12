@@ -33,8 +33,6 @@
             this.pbLogo = new System.Windows.Forms.PictureBox();
             this.pbCerrarPrinci = new System.Windows.Forms.PictureBox();
             this.pnContenedor = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
-            this.lbProducto = new System.Windows.Forms.Label();
             this.lbUsuario = new System.Windows.Forms.Label();
             this.lbPuesto = new System.Windows.Forms.Label();
             this.lbFactura = new System.Windows.Forms.Label();
@@ -48,6 +46,7 @@
             this.pbProducto = new System.Windows.Forms.PictureBox();
             this.pbEmpleado = new System.Windows.Forms.PictureBox();
             this.pbCliente = new System.Windows.Forms.PictureBox();
+            this.lbProducto = new System.Windows.Forms.Label();
             this.pnPrincial.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbCerrarPrinci)).BeginInit();
@@ -99,7 +98,6 @@
             // pnContenedor
             // 
             this.pnContenedor.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(147)))), ((int)(((byte)(147)))));
-            this.pnContenedor.Controls.Add(this.button1);
             this.pnContenedor.Controls.Add(this.lbProducto);
             this.pnContenedor.Controls.Add(this.lbUsuario);
             this.pnContenedor.Controls.Add(this.lbPuesto);
@@ -120,27 +118,6 @@
             this.pnContenedor.Name = "pnContenedor";
             this.pnContenedor.Size = new System.Drawing.Size(816, 517);
             this.pnContenedor.TabIndex = 1;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(242, 25);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 37;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // lbProducto
-            // 
-            this.lbProducto.AutoSize = true;
-            this.lbProducto.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbProducto.ForeColor = System.Drawing.Color.White;
-            this.lbProducto.Location = new System.Drawing.Point(446, 227);
-            this.lbProducto.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.lbProducto.Name = "lbProducto";
-            this.lbProducto.Size = new System.Drawing.Size(94, 24);
-            this.lbProducto.TabIndex = 36;
-            this.lbProducto.Text = "Producto";
             // 
             // lbUsuario
             // 
@@ -305,6 +282,18 @@
             this.pbCliente.TabStop = false;
             this.pbCliente.Click += new System.EventHandler(this.pbCliente_Click);
             // 
+            // lbProducto
+            // 
+            this.lbProducto.AutoSize = true;
+            this.lbProducto.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbProducto.ForeColor = System.Drawing.Color.White;
+            this.lbProducto.Location = new System.Drawing.Point(446, 227);
+            this.lbProducto.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lbProducto.Name = "lbProducto";
+            this.lbProducto.Size = new System.Drawing.Size(94, 24);
+            this.lbProducto.TabIndex = 36;
+            this.lbProducto.Text = "Producto";
+            // 
             // FrmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -339,7 +328,6 @@
         private System.Windows.Forms.Panel pnContenedor;
         private System.Windows.Forms.PictureBox pbLogo;
         private System.Windows.Forms.PictureBox pbCerrarPrinci;
-        private System.Windows.Forms.Label lbProducto;
         private System.Windows.Forms.Label lbUsuario;
         private System.Windows.Forms.Label lbPuesto;
         private System.Windows.Forms.Label lbFactura;
@@ -353,6 +341,6 @@
         private System.Windows.Forms.PictureBox pbProducto;
         private System.Windows.Forms.PictureBox pbEmpleado;
         private System.Windows.Forms.PictureBox pbCliente;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label lbProducto;
     }
 }
