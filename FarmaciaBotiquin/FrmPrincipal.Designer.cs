@@ -33,6 +33,7 @@
             this.pbLogo = new System.Windows.Forms.PictureBox();
             this.pbCerrarPrinci = new System.Windows.Forms.PictureBox();
             this.pnContenedor = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             this.lbProducto = new System.Windows.Forms.Label();
             this.lbUsuario = new System.Windows.Forms.Label();
             this.lbPuesto = new System.Windows.Forms.Label();
@@ -47,7 +48,6 @@
             this.pbProducto = new System.Windows.Forms.PictureBox();
             this.pbEmpleado = new System.Windows.Forms.PictureBox();
             this.pbCliente = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
             this.pnPrincial.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbCerrarPrinci)).BeginInit();
@@ -120,6 +120,15 @@
             this.pnContenedor.Name = "pnContenedor";
             this.pnContenedor.Size = new System.Drawing.Size(816, 517);
             this.pnContenedor.TabIndex = 1;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(242, 25);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 37;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // lbProducto
             // 
@@ -295,15 +304,6 @@
             this.pbCliente.TabIndex = 23;
             this.pbCliente.TabStop = false;
             this.pbCliente.Click += new System.EventHandler(this.pbCliente_Click);
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(700, 344);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 37;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
             // 
             // FrmPrincipal
             // 
