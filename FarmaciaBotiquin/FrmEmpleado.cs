@@ -155,6 +155,96 @@ namespace FarmaciaBotiquin
             this.Show();
         }
 
+        private void pbLogo_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void gbEmpleado_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbPuesto_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cmbEstado_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cmbPuesto_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbEstado_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbTelefono_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbCorreo_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbApellido_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbNombre_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtTelefonoE_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtCorreoE_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtApellidoE_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pnleft_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void dgvEmpleados_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void txtNombreE_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbBuscar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pnRight_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
         private void btnEditar_Click(object sender, EventArgs e)
         {
             if (!seleccionActiva)

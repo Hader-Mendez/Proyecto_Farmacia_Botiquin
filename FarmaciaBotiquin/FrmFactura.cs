@@ -16,5 +16,17 @@ namespace FarmaciaBotiquin
         {
             InitializeComponent();
         }
+
+        private void lbBuscar_Click(object sender, EventArgs e)
+        {
+            //
+        }
+
+        private void pbCerrar_Click(object sender, EventArgs e)
+        {
+            Form formulario = new FrmPrincipal();
+            this.Close();
+            this.Show();
+        }
     }
 }

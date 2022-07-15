@@ -16,5 +16,17 @@ namespace FarmaciaBotiquin
         {
             InitializeComponent();
         }
+
+        private void dgvClientes_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void pbCerrar_Click(object sender, EventArgs e)
+        {
+            Form formulario = new FrmPrincipal();
+            this.Close();
+            this.Show();
+        }
     }
 }
