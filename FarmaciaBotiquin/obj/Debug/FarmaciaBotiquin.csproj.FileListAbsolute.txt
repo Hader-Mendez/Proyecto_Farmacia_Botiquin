@@ -74,3 +74,4 @@ C:\Users\Jordi\Desktop\Proyecto_Farmacia_Botiquin\FarmaciaBotiquin\obj\Debug\Far
 C:\Users\Jordi\Desktop\Proyecto_Farmacia_Botiquin\FarmaciaBotiquin\obj\Debug\FarmaciaBotiquin.exe
 C:\Users\Jordi\Desktop\Proyecto_Farmacia_Botiquin\FarmaciaBotiquin\obj\Debug\FarmaciaBotiquin.pdb
 C:\Users\Jordi\Desktop\Proyecto_Farmacia_Botiquin\FarmaciaBotiquin\obj\Debug\FarmaciaBotiquin.DetalleFactura.resources
+C:\Users\H4D3RS\Desktop\Proyectos C#\Proyecto_Farmacia_Botiquin\FarmaciaBotiquin\obj\Debug\FarmaciaBotiquin.DetalleFactura.resources
