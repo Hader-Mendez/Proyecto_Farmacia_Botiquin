@@ -30,9 +30,9 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmProveedor));
             this.pnleft = new System.Windows.Forms.Panel();
-            this.pbCerrar = new System.Windows.Forms.PictureBox();
+            this.pbCerrarProveedor = new System.Windows.Forms.PictureBox();
             this.pbLogo = new System.Windows.Forms.PictureBox();
-            this.gbEmpleado = new System.Windows.Forms.GroupBox();
+            this.gbProvedor = new System.Windows.Forms.GroupBox();
             this.label1 = new System.Windows.Forms.Label();
             this.txtRTN = new System.Windows.Forms.TextBox();
             this.cmbEstado = new System.Windows.Forms.ComboBox();
@@ -47,14 +47,14 @@
             this.lbBuscar = new System.Windows.Forms.Label();
             this.txtBuscar = new System.Windows.Forms.TextBox();
             this.dgvProveedor = new System.Windows.Forms.DataGridView();
-            this.btnAgregar = new System.Windows.Forms.Button();
-            this.btnEditar = new System.Windows.Forms.Button();
+            this.btnAgregarProveedor = new System.Windows.Forms.Button();
+            this.btnEditarProveedor = new System.Windows.Forms.Button();
             this.pnRight = new System.Windows.Forms.Panel();
             this.txtDireccion = new System.Windows.Forms.TextBox();
             this.pnleft.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbCerrar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbCerrarProveedor)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).BeginInit();
-            this.gbEmpleado.SuspendLayout();
+            this.gbProvedor.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvProveedor)).BeginInit();
             this.pnRight.SuspendLayout();
             this.SuspendLayout();
@@ -62,9 +62,9 @@
             // pnleft
             // 
             this.pnleft.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(97)))), ((int)(((byte)(112)))));
-            this.pnleft.Controls.Add(this.pbCerrar);
+            this.pnleft.Controls.Add(this.pbCerrarProveedor);
             this.pnleft.Controls.Add(this.pbLogo);
-            this.pnleft.Controls.Add(this.gbEmpleado);
+            this.pnleft.Controls.Add(this.gbProvedor);
             this.pnleft.Dock = System.Windows.Forms.DockStyle.Left;
             this.pnleft.Location = new System.Drawing.Point(0, 0);
             this.pnleft.Margin = new System.Windows.Forms.Padding(2);
@@ -72,16 +72,16 @@
             this.pnleft.Size = new System.Drawing.Size(377, 508);
             this.pnleft.TabIndex = 4;
             // 
-            // pbCerrar
+            // pbCerrarProveedor
             // 
-            this.pbCerrar.Image = ((System.Drawing.Image)(resources.GetObject("pbCerrar.Image")));
-            this.pbCerrar.Location = new System.Drawing.Point(317, 10);
-            this.pbCerrar.Margin = new System.Windows.Forms.Padding(2);
-            this.pbCerrar.Name = "pbCerrar";
-            this.pbCerrar.Size = new System.Drawing.Size(52, 58);
-            this.pbCerrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbCerrar.TabIndex = 4;
-            this.pbCerrar.TabStop = false;
+            this.pbCerrarProveedor.Image = ((System.Drawing.Image)(resources.GetObject("pbCerrarProveedor.Image")));
+            this.pbCerrarProveedor.Location = new System.Drawing.Point(317, 10);
+            this.pbCerrarProveedor.Margin = new System.Windows.Forms.Padding(2);
+            this.pbCerrarProveedor.Name = "pbCerrarProveedor";
+            this.pbCerrarProveedor.Size = new System.Drawing.Size(52, 58);
+            this.pbCerrarProveedor.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbCerrarProveedor.TabIndex = 4;
+            this.pbCerrarProveedor.TabStop = false;
             // 
             // pbLogo
             // 
@@ -94,27 +94,27 @@
             this.pbLogo.TabIndex = 3;
             this.pbLogo.TabStop = false;
             // 
-            // gbEmpleado
+            // gbProvedor
             // 
-            this.gbEmpleado.Controls.Add(this.txtDireccion);
-            this.gbEmpleado.Controls.Add(this.label1);
-            this.gbEmpleado.Controls.Add(this.txtRTN);
-            this.gbEmpleado.Controls.Add(this.cmbEstado);
-            this.gbEmpleado.Controls.Add(this.lbEstado);
-            this.gbEmpleado.Controls.Add(this.lbTelefono);
-            this.gbEmpleado.Controls.Add(this.lbCorreo);
-            this.gbEmpleado.Controls.Add(this.lbApellido);
-            this.gbEmpleado.Controls.Add(this.lbNombre);
-            this.gbEmpleado.Controls.Add(this.txtCorreoProveedor);
-            this.gbEmpleado.Controls.Add(this.txtTelefono);
-            this.gbEmpleado.Controls.Add(this.txtNombreProveedor);
-            this.gbEmpleado.Location = new System.Drawing.Point(9, 72);
-            this.gbEmpleado.Margin = new System.Windows.Forms.Padding(2);
-            this.gbEmpleado.Name = "gbEmpleado";
-            this.gbEmpleado.Padding = new System.Windows.Forms.Padding(2);
-            this.gbEmpleado.Size = new System.Drawing.Size(350, 428);
-            this.gbEmpleado.TabIndex = 0;
-            this.gbEmpleado.TabStop = false;
+            this.gbProvedor.Controls.Add(this.txtDireccion);
+            this.gbProvedor.Controls.Add(this.label1);
+            this.gbProvedor.Controls.Add(this.txtRTN);
+            this.gbProvedor.Controls.Add(this.cmbEstado);
+            this.gbProvedor.Controls.Add(this.lbEstado);
+            this.gbProvedor.Controls.Add(this.lbTelefono);
+            this.gbProvedor.Controls.Add(this.lbCorreo);
+            this.gbProvedor.Controls.Add(this.lbApellido);
+            this.gbProvedor.Controls.Add(this.lbNombre);
+            this.gbProvedor.Controls.Add(this.txtCorreoProveedor);
+            this.gbProvedor.Controls.Add(this.txtTelefono);
+            this.gbProvedor.Controls.Add(this.txtNombreProveedor);
+            this.gbProvedor.Location = new System.Drawing.Point(9, 72);
+            this.gbProvedor.Margin = new System.Windows.Forms.Padding(2);
+            this.gbProvedor.Name = "gbProvedor";
+            this.gbProvedor.Padding = new System.Windows.Forms.Padding(2);
+            this.gbProvedor.Size = new System.Drawing.Size(350, 428);
+            this.gbProvedor.TabIndex = 0;
+            this.gbProvedor.TabStop = false;
             // 
             // label1
             // 
@@ -278,27 +278,27 @@
             this.dgvProveedor.Size = new System.Drawing.Size(622, 423);
             this.dgvProveedor.TabIndex = 0;
             // 
-            // btnAgregar
+            // btnAgregarProveedor
             // 
-            this.btnAgregar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAgregar.Location = new System.Drawing.Point(18, 466);
-            this.btnAgregar.Margin = new System.Windows.Forms.Padding(2);
-            this.btnAgregar.Name = "btnAgregar";
-            this.btnAgregar.Size = new System.Drawing.Size(80, 30);
-            this.btnAgregar.TabIndex = 7;
-            this.btnAgregar.Text = "Agregar";
-            this.btnAgregar.UseVisualStyleBackColor = true;
+            this.btnAgregarProveedor.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAgregarProveedor.Location = new System.Drawing.Point(18, 466);
+            this.btnAgregarProveedor.Margin = new System.Windows.Forms.Padding(2);
+            this.btnAgregarProveedor.Name = "btnAgregarProveedor";
+            this.btnAgregarProveedor.Size = new System.Drawing.Size(80, 30);
+            this.btnAgregarProveedor.TabIndex = 7;
+            this.btnAgregarProveedor.Text = "Agregar";
+            this.btnAgregarProveedor.UseVisualStyleBackColor = true;
             // 
-            // btnEditar
+            // btnEditarProveedor
             // 
-            this.btnEditar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEditar.Location = new System.Drawing.Point(102, 466);
-            this.btnEditar.Margin = new System.Windows.Forms.Padding(2);
-            this.btnEditar.Name = "btnEditar";
-            this.btnEditar.Size = new System.Drawing.Size(80, 30);
-            this.btnEditar.TabIndex = 8;
-            this.btnEditar.Text = "Editar";
-            this.btnEditar.UseVisualStyleBackColor = true;
+            this.btnEditarProveedor.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEditarProveedor.Location = new System.Drawing.Point(102, 466);
+            this.btnEditarProveedor.Margin = new System.Windows.Forms.Padding(2);
+            this.btnEditarProveedor.Name = "btnEditarProveedor";
+            this.btnEditarProveedor.Size = new System.Drawing.Size(80, 30);
+            this.btnEditarProveedor.TabIndex = 8;
+            this.btnEditarProveedor.Text = "Editar";
+            this.btnEditarProveedor.UseVisualStyleBackColor = true;
             // 
             // pnRight
             // 
@@ -306,8 +306,8 @@
             this.pnRight.Controls.Add(this.lbBuscar);
             this.pnRight.Controls.Add(this.txtBuscar);
             this.pnRight.Controls.Add(this.dgvProveedor);
-            this.pnRight.Controls.Add(this.btnAgregar);
-            this.pnRight.Controls.Add(this.btnEditar);
+            this.pnRight.Controls.Add(this.btnAgregarProveedor);
+            this.pnRight.Controls.Add(this.btnEditarProveedor);
             this.pnRight.Dock = System.Windows.Forms.DockStyle.Right;
             this.pnRight.Location = new System.Drawing.Point(377, 0);
             this.pnRight.Margin = new System.Windows.Forms.Padding(2);
@@ -338,10 +338,10 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmProveedor";
             this.pnleft.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pbCerrar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbCerrarProveedor)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).EndInit();
-            this.gbEmpleado.ResumeLayout(false);
-            this.gbEmpleado.PerformLayout();
+            this.gbProvedor.ResumeLayout(false);
+            this.gbProvedor.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvProveedor)).EndInit();
             this.pnRight.ResumeLayout(false);
             this.pnRight.PerformLayout();
@@ -352,9 +352,9 @@
         #endregion
 
         private System.Windows.Forms.Panel pnleft;
-        private System.Windows.Forms.PictureBox pbCerrar;
+        private System.Windows.Forms.PictureBox pbCerrarProveedor;
         private System.Windows.Forms.PictureBox pbLogo;
-        private System.Windows.Forms.GroupBox gbEmpleado;
+        private System.Windows.Forms.GroupBox gbProvedor;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtRTN;
         private System.Windows.Forms.ComboBox cmbEstado;
@@ -369,8 +369,8 @@
         private System.Windows.Forms.Label lbBuscar;
         private System.Windows.Forms.TextBox txtBuscar;
         private System.Windows.Forms.DataGridView dgvProveedor;
-        private System.Windows.Forms.Button btnAgregar;
-        private System.Windows.Forms.Button btnEditar;
+        private System.Windows.Forms.Button btnAgregarProveedor;
+        private System.Windows.Forms.Button btnEditarProveedor;
         private System.Windows.Forms.Panel pnRight;
         private System.Windows.Forms.TextBox txtDireccion;
     }
