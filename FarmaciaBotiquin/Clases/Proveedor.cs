@@ -73,6 +73,58 @@ namespace FarmaciaBotiquin.Clases
                 conexion.sqlConnection.Close();
             }
         }
+        public void AgregarProveedor(Proveedor proveedor)
+        {
+            try
+            {
+                conexion.sqlConnection.Open();
+                SqlCommand sqlCommand = new SqlCommand("Sp_Proveedor", conexion.sqlConnection);
+                sqlCommand.CommandType = CommandType.StoredProcedure;
+                sqlCommand.Parameters.AddWithValue("@CodProveedor", proveedor.CodProveedor);
+                sqlCommand.Parameters.AddWithValue("@RTN", proveedor.RTN);
+                sqlCommand.Parameters.AddWithValue("@NombreProveedor", proveedor.NombreProveedor);
+                sqlCommand.Parameters.AddWithValue("@Telefono", proveedor.Telefono);
+                sqlCommand.Parameters.AddWithValue("@Email", proveedor.Email);
+                sqlCommand.Parameters.AddWithValue("@Direccion", proveedor.Direccion);
+                sqlCommand.Parameters.AddWithValue("@IdEstado", proveedor.IdEstado);
+                sqlCommand.Parameters.AddWithValue("@accion", "insertar");
+                sqlCommand.ExecuteNonQuery();
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show(ex.Message.ToString(), "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                conexion.sqlConnection.Close();
+            }
+        }
+        public void EditarProveedor(Proveedor proveedor)
+        {
+            try
+            {
+                conexion.sqlConnection.Open();
+                SqlCommand sqlCommand = new SqlCommand("Sp_Proveedor", conexion.sqlConnection);
+                sqlCommand.CommandType = CommandType.StoredProcedure;
+                sqlCommand.Parameters.AddWithValue("@CodProveedor", proveedor.CodProveedor);
+                sqlCommand.Parameters.AddWithValue("@RTN", proveedor.RTN);
+                sqlCommand.Parameters.AddWithValue("@NombreProveedor", proveedor.NombreProveedor);
+                sqlCommand.Parameters.AddWithValue("@Telefono", proveedor.Telefono);
+                sqlCommand.Parameters.AddWithValue("@Email", proveedor.Email);
+                sqlCommand.Parameters.AddWithValue("@Direccion", proveedor.Direccion);
+                sqlCommand.Parameters.AddWithValue("@IdEstado", proveedor.IdEstado);
+                sqlCommand.Parameters.AddWithValue("@accion", "editar");
+                sqlCommand.ExecuteNonQuery();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message.ToString(), "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                conexion.sqlConnection.Close();
+            }
+        }
 
     }
 }
