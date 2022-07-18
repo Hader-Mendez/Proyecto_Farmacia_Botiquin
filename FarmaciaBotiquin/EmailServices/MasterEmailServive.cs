@@ -41,7 +41,7 @@ namespace FarmaciaBotiquin.EmailServices
                 mailMessage.Priority = MailPriority.Normal;
                 smtpClient.Send(mailMessage);
             }
-            catch (Exception ex) { }
+            catch (Exception ex) { throw ex; }
             finally
             {
                 mailMessage.Dispose();

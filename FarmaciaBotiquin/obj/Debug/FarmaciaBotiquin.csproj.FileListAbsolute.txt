@@ -75,3 +75,19 @@ C:\Users\Jordi\Desktop\Proyecto_Farmacia_Botiquin\FarmaciaBotiquin\obj\Debug\Far
 C:\Users\Jordi\Desktop\Proyecto_Farmacia_Botiquin\FarmaciaBotiquin\obj\Debug\FarmaciaBotiquin.pdb
 C:\Users\Jordi\Desktop\Proyecto_Farmacia_Botiquin\FarmaciaBotiquin\obj\Debug\FarmaciaBotiquin.DetalleFactura.resources
 C:\Users\H4D3RS\Desktop\Proyectos C#\Proyecto_Farmacia_Botiquin\FarmaciaBotiquin\obj\Debug\FarmaciaBotiquin.DetalleFactura.resources
+D:\Respaldo\Mario\Desktop\Proyecto_Farmacia_Botiquin\FarmaciaBotiquin\obj\Debug\FarmaciaBotiquin.csproj.AssemblyReference.cache
+D:\Respaldo\Mario\Desktop\Proyecto_Farmacia_Botiquin\FarmaciaBotiquin\obj\Debug\FarmaciaBotiquin.DetalleFactura.resources
+D:\Respaldo\Mario\Desktop\Proyecto_Farmacia_Botiquin\FarmaciaBotiquin\obj\Debug\FarmaciaBotiquin.FrmCliente.resources
+D:\Respaldo\Mario\Desktop\Proyecto_Farmacia_Botiquin\FarmaciaBotiquin\obj\Debug\FarmaciaBotiquin.FrmEmpleado.resources
+D:\Respaldo\Mario\Desktop\Proyecto_Farmacia_Botiquin\FarmaciaBotiquin\obj\Debug\FarmaciaBotiquin.FrmFactura.resources
+D:\Respaldo\Mario\Desktop\Proyecto_Farmacia_Botiquin\FarmaciaBotiquin\obj\Debug\FarmaciaBotiquin.FrmLogin.resources
+D:\Respaldo\Mario\Desktop\Proyecto_Farmacia_Botiquin\FarmaciaBotiquin\obj\Debug\FarmaciaBotiquin.FrmPrincipal.resources
+D:\Respaldo\Mario\Desktop\Proyecto_Farmacia_Botiquin\FarmaciaBotiquin\obj\Debug\FarmaciaBotiquin.FrmProducto.resources
+D:\Respaldo\Mario\Desktop\Proyecto_Farmacia_Botiquin\FarmaciaBotiquin\obj\Debug\FarmaciaBotiquin.FrmProveedor.resources
+D:\Respaldo\Mario\Desktop\Proyecto_Farmacia_Botiquin\FarmaciaBotiquin\obj\Debug\FarmaciaBotiquin.FrmPuesto.resources
+D:\Respaldo\Mario\Desktop\Proyecto_Farmacia_Botiquin\FarmaciaBotiquin\obj\Debug\FarmaciaBotiquin.FrmUsuario.resources
+D:\Respaldo\Mario\Desktop\Proyecto_Farmacia_Botiquin\FarmaciaBotiquin\obj\Debug\FarmaciaBotiquin.Properties.Resources.resources
+D:\Respaldo\Mario\Desktop\Proyecto_Farmacia_Botiquin\FarmaciaBotiquin\obj\Debug\FarmaciaBotiquin.csproj.GenerateResource.cache
+D:\Respaldo\Mario\Desktop\Proyecto_Farmacia_Botiquin\FarmaciaBotiquin\obj\Debug\FarmaciaBotiquin.csproj.CoreCompileInputs.cache
+D:\Respaldo\Mario\Desktop\Proyecto_Farmacia_Botiquin\FarmaciaBotiquin\obj\Debug\FarmaciaBotiquin.exe
+D:\Respaldo\Mario\Desktop\Proyecto_Farmacia_Botiquin\FarmaciaBotiquin\obj\Debug\FarmaciaBotiquin.pdb

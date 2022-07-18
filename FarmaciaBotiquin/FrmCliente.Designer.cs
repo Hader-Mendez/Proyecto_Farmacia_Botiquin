@@ -308,14 +308,14 @@
             this.txtDniCliente.MaxLength = 25;
             this.txtDniCliente.Name = "txtDniCliente";
             this.txtDniCliente.Size = new System.Drawing.Size(320, 32);
-<<<<<<< Updated upstream
+
             this.txtDniCliente.TabIndex = 1;
             this.txtDniCliente.TextChanged += new System.EventHandler(this.txtDniCliente_TextChanged);
             this.txtDniCliente.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtDniCliente_KeyPress);
-=======
+
             this.txtDniCliente.TabIndex = 22;
             this.txtDniCliente.TextChanged += new System.EventHandler(this.txtDniCliente_TextChanged);
->>>>>>> Stashed changes
+
             // 
             // dtpFechaNacClientes
             // 
@@ -326,7 +326,7 @@
             this.dtpFechaNacClientes.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtpFechaNacClientes.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dtpFechaNacClientes.Location = new System.Drawing.Point(9, 304);
-<<<<<<< Updated upstream
+
             this.dtpFechaNacClientes.MaxDate = new System.DateTime(2003, 12, 31, 0, 0, 0, 0);
             this.dtpFechaNacClientes.MinDate = new System.DateTime(1950, 1, 1, 0, 0, 0, 0);
             this.dtpFechaNacClientes.Name = "dtpFechaNacClientes";
@@ -334,7 +334,7 @@
             this.dtpFechaNacClientes.Size = new System.Drawing.Size(193, 29);
             this.dtpFechaNacClientes.TabIndex = 5;
             this.dtpFechaNacClientes.Value = new System.DateTime(2003, 12, 31, 0, 0, 0, 0);
-=======
+
             this.dtpFechaNacClientes.MaxDate = new System.DateTime(2024, 12, 25, 0, 0, 0, 0);
             this.dtpFechaNacClientes.MinDate = new System.DateTime(2022, 7, 12, 0, 0, 0, 0);
             this.dtpFechaNacClientes.Name = "dtpFechaNacClientes";
@@ -342,7 +342,7 @@
             this.dtpFechaNacClientes.Size = new System.Drawing.Size(193, 29);
             this.dtpFechaNacClientes.TabIndex = 21;
             this.dtpFechaNacClientes.Value = new System.DateTime(2022, 7, 12, 0, 0, 0, 0);
->>>>>>> Stashed changes
+
             this.dtpFechaNacClientes.ValueChanged += new System.EventHandler(this.dtpFechaNacClientes_ValueChanged);
             // 
             // lbNombre
