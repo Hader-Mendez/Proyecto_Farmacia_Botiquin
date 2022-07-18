@@ -46,11 +46,11 @@
             this.pbCerrar = new System.Windows.Forms.PictureBox();
             this.pbLogo = new System.Windows.Forms.PictureBox();
             this.gbEmpleado = new System.Windows.Forms.GroupBox();
-            this.lbNombre = new System.Windows.Forms.Label();
-            this.pnleft = new System.Windows.Forms.Panel();
-            this.dtpFechaNacClientes = new System.Windows.Forms.DateTimePicker();
             this.label1 = new System.Windows.Forms.Label();
             this.txtDniCliente = new System.Windows.Forms.TextBox();
+            this.dtpFechaNacClientes = new System.Windows.Forms.DateTimePicker();
+            this.lbNombre = new System.Windows.Forms.Label();
+            this.pnleft = new System.Windows.Forms.Panel();
             this.pnRight.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvClientes)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbCerrar)).BeginInit();
@@ -111,6 +111,7 @@
             this.dgvClientes.Size = new System.Drawing.Size(622, 423);
             this.dgvClientes.TabIndex = 0;
             this.dgvClientes.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvClientes_CellContentClick);
+            this.dgvClientes.CellMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dgvClientes_CellMouseClick);
             // 
             // btnAgregar
             // 
@@ -211,7 +212,7 @@
             this.txtCorreoClientes.MaxLength = 25;
             this.txtCorreoClientes.Name = "txtCorreoClientes";
             this.txtCorreoClientes.Size = new System.Drawing.Size(320, 32);
-            this.txtCorreoClientes.TabIndex = 3;
+            this.txtCorreoClientes.TabIndex = 4;
             this.txtCorreoClientes.TextChanged += new System.EventHandler(this.txtCorreoClientes_TextChanged);
             // 
             // txtApellidosCliente
@@ -222,8 +223,9 @@
             this.txtApellidosCliente.MaxLength = 25;
             this.txtApellidosCliente.Name = "txtApellidosCliente";
             this.txtApellidosCliente.Size = new System.Drawing.Size(320, 32);
-            this.txtApellidosCliente.TabIndex = 2;
+            this.txtApellidosCliente.TabIndex = 3;
             this.txtApellidosCliente.TextChanged += new System.EventHandler(this.txtApellidosCliente_TextChanged);
+            this.txtApellidosCliente.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtApellidosCliente_KeyPress);
             // 
             // txtNombreCliente
             // 
@@ -233,8 +235,9 @@
             this.txtNombreCliente.MaxLength = 25;
             this.txtNombreCliente.Name = "txtNombreCliente";
             this.txtNombreCliente.Size = new System.Drawing.Size(320, 32);
-            this.txtNombreCliente.TabIndex = 1;
+            this.txtNombreCliente.TabIndex = 2;
             this.txtNombreCliente.TextChanged += new System.EventHandler(this.txtNombreCliente_TextChanged);
+            this.txtNombreCliente.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNombreCliente_KeyPress);
             // 
             // pbCerrar
             // 
@@ -283,6 +286,50 @@
             this.gbEmpleado.TabStop = false;
             this.gbEmpleado.Enter += new System.EventHandler(this.gbEmpleado_Enter);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(6, 15);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(142, 26);
+            this.label1.TabIndex = 23;
+            this.label1.Text = "DNI Cliente:";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // txtDniCliente
+            // 
+            this.txtDniCliente.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDniCliente.Location = new System.Drawing.Point(10, 43);
+            this.txtDniCliente.Margin = new System.Windows.Forms.Padding(2);
+            this.txtDniCliente.MaxLength = 25;
+            this.txtDniCliente.Name = "txtDniCliente";
+            this.txtDniCliente.Size = new System.Drawing.Size(320, 32);
+            this.txtDniCliente.TabIndex = 1;
+            this.txtDniCliente.TextChanged += new System.EventHandler(this.txtDniCliente_TextChanged);
+            this.txtDniCliente.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtDniCliente_KeyPress);
+            // 
+            // dtpFechaNacClientes
+            // 
+            this.dtpFechaNacClientes.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
+            this.dtpFechaNacClientes.AllowDrop = true;
+            this.dtpFechaNacClientes.Cursor = System.Windows.Forms.Cursors.Default;
+            this.dtpFechaNacClientes.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right;
+            this.dtpFechaNacClientes.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtpFechaNacClientes.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtpFechaNacClientes.Location = new System.Drawing.Point(9, 304);
+            this.dtpFechaNacClientes.MaxDate = new System.DateTime(2003, 12, 31, 0, 0, 0, 0);
+            this.dtpFechaNacClientes.MinDate = new System.DateTime(1950, 1, 1, 0, 0, 0, 0);
+            this.dtpFechaNacClientes.Name = "dtpFechaNacClientes";
+            this.dtpFechaNacClientes.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.dtpFechaNacClientes.Size = new System.Drawing.Size(193, 29);
+            this.dtpFechaNacClientes.TabIndex = 5;
+            this.dtpFechaNacClientes.Value = new System.DateTime(2003, 12, 31, 0, 0, 0, 0);
+            this.dtpFechaNacClientes.ValueChanged += new System.EventHandler(this.dtpFechaNacClientes_ValueChanged);
+            // 
             // lbNombre
             // 
             this.lbNombre.AutoSize = true;
@@ -311,49 +358,6 @@
             this.pnleft.TabIndex = 2;
             this.pnleft.Paint += new System.Windows.Forms.PaintEventHandler(this.pnleft_Paint);
             // 
-            // dtpFechaNacClientes
-            // 
-            this.dtpFechaNacClientes.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
-            this.dtpFechaNacClientes.AllowDrop = true;
-            this.dtpFechaNacClientes.Cursor = System.Windows.Forms.Cursors.Default;
-            this.dtpFechaNacClientes.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right;
-            this.dtpFechaNacClientes.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dtpFechaNacClientes.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpFechaNacClientes.Location = new System.Drawing.Point(9, 304);
-            this.dtpFechaNacClientes.MaxDate = new System.DateTime(2024, 12, 25, 0, 0, 0, 0);
-            this.dtpFechaNacClientes.MinDate = new System.DateTime(2022, 7, 12, 0, 0, 0, 0);
-            this.dtpFechaNacClientes.Name = "dtpFechaNacClientes";
-            this.dtpFechaNacClientes.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.dtpFechaNacClientes.Size = new System.Drawing.Size(193, 29);
-            this.dtpFechaNacClientes.TabIndex = 21;
-            this.dtpFechaNacClientes.Value = new System.DateTime(2022, 7, 12, 0, 0, 0, 0);
-            this.dtpFechaNacClientes.ValueChanged += new System.EventHandler(this.dtpFechaNacClientes_ValueChanged);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(6, 15);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(142, 26);
-            this.label1.TabIndex = 23;
-            this.label1.Text = "DNI Cliente:";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
-            // 
-            // txtDniCliente
-            // 
-            this.txtDniCliente.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDniCliente.Location = new System.Drawing.Point(10, 43);
-            this.txtDniCliente.Margin = new System.Windows.Forms.Padding(2);
-            this.txtDniCliente.MaxLength = 25;
-            this.txtDniCliente.Name = "txtDniCliente";
-            this.txtDniCliente.Size = new System.Drawing.Size(320, 32);
-            this.txtDniCliente.TabIndex = 22;
-            this.txtDniCliente.TextChanged += new System.EventHandler(this.txtDniCliente_TextChanged);
-            // 
             // FrmCliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -362,7 +366,7 @@
             this.Controls.Add(this.pnRight);
             this.Controls.Add(this.pnleft);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "FrmCliente";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmCliente";
