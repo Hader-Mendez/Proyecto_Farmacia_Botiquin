@@ -80,7 +80,7 @@
             this.lbBuscar.AutoSize = true;
             this.lbBuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbBuscar.ForeColor = System.Drawing.Color.White;
-            this.lbBuscar.Location = new System.Drawing.Point(8, 15);
+            this.lbBuscar.Location = new System.Drawing.Point(14, 11);
             this.lbBuscar.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbBuscar.Name = "lbBuscar";
             this.lbBuscar.Size = new System.Drawing.Size(63, 20);
@@ -91,7 +91,7 @@
             // txtBuscar
             // 
             this.txtBuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtBuscar.Location = new System.Drawing.Point(72, 15);
+            this.txtBuscar.Location = new System.Drawing.Point(78, 11);
             this.txtBuscar.Margin = new System.Windows.Forms.Padding(2);
             this.txtBuscar.Name = "txtBuscar";
             this.txtBuscar.Size = new System.Drawing.Size(563, 23);
@@ -101,7 +101,7 @@
             // dgvClientes
             // 
             this.dgvClientes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvClientes.Location = new System.Drawing.Point(12, 42);
+            this.dgvClientes.Location = new System.Drawing.Point(18, 38);
             this.dgvClientes.Margin = new System.Windows.Forms.Padding(2);
             this.dgvClientes.Name = "dgvClientes";
             this.dgvClientes.ReadOnly = true;
@@ -116,7 +116,7 @@
             // btnAgregar
             // 
             this.btnAgregar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAgregar.Location = new System.Drawing.Point(12, 470);
+            this.btnAgregar.Location = new System.Drawing.Point(18, 466);
             this.btnAgregar.Margin = new System.Windows.Forms.Padding(2);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(80, 30);
@@ -128,7 +128,7 @@
             // btnEditar
             // 
             this.btnEditar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEditar.Location = new System.Drawing.Point(96, 470);
+            this.btnEditar.Location = new System.Drawing.Point(102, 466);
             this.btnEditar.Margin = new System.Windows.Forms.Padding(2);
             this.btnEditar.Name = "btnEditar";
             this.btnEditar.Size = new System.Drawing.Size(80, 30);
@@ -308,9 +308,14 @@
             this.txtDniCliente.MaxLength = 25;
             this.txtDniCliente.Name = "txtDniCliente";
             this.txtDniCliente.Size = new System.Drawing.Size(320, 32);
+<<<<<<< Updated upstream
             this.txtDniCliente.TabIndex = 1;
             this.txtDniCliente.TextChanged += new System.EventHandler(this.txtDniCliente_TextChanged);
             this.txtDniCliente.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtDniCliente_KeyPress);
+=======
+            this.txtDniCliente.TabIndex = 22;
+            this.txtDniCliente.TextChanged += new System.EventHandler(this.txtDniCliente_TextChanged);
+>>>>>>> Stashed changes
             // 
             // dtpFechaNacClientes
             // 
@@ -321,6 +326,7 @@
             this.dtpFechaNacClientes.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtpFechaNacClientes.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dtpFechaNacClientes.Location = new System.Drawing.Point(9, 304);
+<<<<<<< Updated upstream
             this.dtpFechaNacClientes.MaxDate = new System.DateTime(2003, 12, 31, 0, 0, 0, 0);
             this.dtpFechaNacClientes.MinDate = new System.DateTime(1950, 1, 1, 0, 0, 0, 0);
             this.dtpFechaNacClientes.Name = "dtpFechaNacClientes";
@@ -328,6 +334,15 @@
             this.dtpFechaNacClientes.Size = new System.Drawing.Size(193, 29);
             this.dtpFechaNacClientes.TabIndex = 5;
             this.dtpFechaNacClientes.Value = new System.DateTime(2003, 12, 31, 0, 0, 0, 0);
+=======
+            this.dtpFechaNacClientes.MaxDate = new System.DateTime(2024, 12, 25, 0, 0, 0, 0);
+            this.dtpFechaNacClientes.MinDate = new System.DateTime(2022, 7, 12, 0, 0, 0, 0);
+            this.dtpFechaNacClientes.Name = "dtpFechaNacClientes";
+            this.dtpFechaNacClientes.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.dtpFechaNacClientes.Size = new System.Drawing.Size(193, 29);
+            this.dtpFechaNacClientes.TabIndex = 21;
+            this.dtpFechaNacClientes.Value = new System.DateTime(2022, 7, 12, 0, 0, 0, 0);
+>>>>>>> Stashed changes
             this.dtpFechaNacClientes.ValueChanged += new System.EventHandler(this.dtpFechaNacClientes_ValueChanged);
             // 
             // lbNombre
