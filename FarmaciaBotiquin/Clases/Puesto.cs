@@ -13,6 +13,7 @@ namespace FarmaciaBotiquin.Clases
     
     class Puesto
     {
+
         public int IdPuesto { get; set; }
         public string Puestos { get; set; }
 
@@ -70,6 +71,51 @@ namespace FarmaciaBotiquin.Clases
                 conexion.sqlConnection.Close();
             }
 
+        }
+
+        public void AgregarPuesto(Puesto puesto)
+        {
+            try
+            {
+                conexion.sqlConnection.Open();
+
+                SqlCommand sqlCommand = new SqlCommand("Sp_Puesto", conexion.sqlConnection);
+                sqlCommand.CommandType = CommandType.StoredProcedure;
+                sqlCommand.Parameters.AddWithValue("@Puesto", puesto.Puestos);
+                sqlCommand.Parameters.AddWithValue("@accion", "insertar");
+                sqlCommand.ExecuteNonQuery();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message.ToString(), "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                conexion.sqlConnection.Close();
+            }
+        }
+
+        public void EditarPuesto(Puesto puesto)
+        {
+            try
+            {
+                conexion.sqlConnection.Open();
+                SqlCommand sqlCommand = new SqlCommand("Sp_Puesto", conexion.sqlConnection);
+                sqlCommand.CommandType = CommandType.StoredProcedure;
+
+                sqlCommand.Parameters.AddWithValue("@IdPuesto", puesto.IdPuesto);
+                sqlCommand.Parameters.AddWithValue("@Puesto", puesto.Puestos);
+                sqlCommand.Parameters.AddWithValue("@accion", "editar");
+                sqlCommand.ExecuteNonQuery();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message.ToString(), "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                conexion.sqlConnection.Close();
+            }
         }
     }
 }

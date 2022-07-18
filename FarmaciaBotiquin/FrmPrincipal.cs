@@ -59,7 +59,7 @@ namespace FarmaciaBotiquin
 
         private void pbFactura_Click(object sender, EventArgs e)
         {
-            Form formulario = new FrmFactura();
+            Form formulario = new FrmDetalleFactura();
             this.Hide();
             formulario.ShowDialog();
             this.Show();
@@ -67,7 +67,7 @@ namespace FarmaciaBotiquin
 
         private void pcFactura_Click(object sender, EventArgs e)
         {
-            Form formulario = new FrmFactura();
+            Form formulario = new FrmPuesto();
             this.Hide();
             formulario.ShowDialog();
             this.Show();
