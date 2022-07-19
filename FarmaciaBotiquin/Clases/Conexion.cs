@@ -10,7 +10,7 @@ namespace FarmaciaBotiquin.Clases
 {
     class Conexion
     {
-        private static string connectionString = ConfigurationManager.ConnectionStrings["DESKTOP-GII3E9E\\SQLEXPRESS.Properties.Settings.conexionFarmacia_Botiquin"].ConnectionString;
+        private static string connectionString = ConfigurationManager.ConnectionStrings["FarmaciaBotiquin.Properties.Settings.conexionFarmacia_Botiquin"].ConnectionString;
         public SqlConnection sqlConnection = new SqlConnection(connectionString);
     }
 }
