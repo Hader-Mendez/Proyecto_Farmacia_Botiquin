@@ -14,8 +14,8 @@ namespace FarmaciaBotiquin
 {
     public partial class FrmProveedor : Form
     {
-        bool seleccionActiva = false;
         Proveedor proveedor = new Proveedor();
+        bool seleccionActiva = false;
         Validaciones validaciones = new Validaciones();
         Estado estado = new Estado();
         public FrmProveedor()
