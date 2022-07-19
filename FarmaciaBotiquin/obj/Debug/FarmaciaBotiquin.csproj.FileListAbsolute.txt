@@ -91,3 +91,6 @@ D:\Respaldo\Mario\Desktop\Proyecto_Farmacia_Botiquin\FarmaciaBotiquin\obj\Debug\
 D:\Respaldo\Mario\Desktop\Proyecto_Farmacia_Botiquin\FarmaciaBotiquin\obj\Debug\FarmaciaBotiquin.csproj.CoreCompileInputs.cache
 D:\Respaldo\Mario\Desktop\Proyecto_Farmacia_Botiquin\FarmaciaBotiquin\obj\Debug\FarmaciaBotiquin.exe
 D:\Respaldo\Mario\Desktop\Proyecto_Farmacia_Botiquin\FarmaciaBotiquin\obj\Debug\FarmaciaBotiquin.pdb
+D:\Respaldo\Mario\Desktop\Proyecto_Farmacia_Botiquin\FarmaciaBotiquin\bin\Debug\FarmaciaBotiquin.exe.config
+D:\Respaldo\Mario\Desktop\Proyecto_Farmacia_Botiquin\FarmaciaBotiquin\bin\Debug\FarmaciaBotiquin.exe
+D:\Respaldo\Mario\Desktop\Proyecto_Farmacia_Botiquin\FarmaciaBotiquin\bin\Debug\FarmaciaBotiquin.pdb
