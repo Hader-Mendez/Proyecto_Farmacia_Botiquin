@@ -63,6 +63,7 @@
     <Compile Include="Clases\Producto.cs" />
     <Compile Include="Clases\Proveedor.cs" />
     <Compile Include="Clases\Puesto.cs" />
+    <Compile Include="Clases\Usuarios.cs" />
     <Compile Include="Clases\Validaciones.cs" />
     <Compile Include="DetalleFactura.cs">
       <SubType>Form</SubType>
