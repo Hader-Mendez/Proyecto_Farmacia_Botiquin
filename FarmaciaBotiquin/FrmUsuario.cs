@@ -27,6 +27,7 @@ namespace FarmaciaBotiquin
         private void Inicializar()
         {
             usuarios.MostrarUsuario(dgvUsuarios);
+            dgvUsuarios.Columns["IdUsuario"].Visible = false;
         }
 
         private void txtBuscar_TextChanged(object sender, EventArgs e)
@@ -110,9 +111,9 @@ namespace FarmaciaBotiquin
 
         private void btnEditar_Click(object sender, EventArgs e)
         {
-            if (seleccionActiva == false)
+            if (!seleccionActiva)
             {
-                MessageBox.Show("Por favor, selecione un puesto para editarlo");
+                MessageBox.Show("Por favor, selecione un usuario para editarlo");
             }
             else
             {
