@@ -113,7 +113,7 @@ namespace FarmaciaBotiquin
         {
             if (!seleccionActiva)
             {
-                MessageBox.Show("Por favor, selecione un usuario para editarlo");
+                MessageBox.Show("Por favor, selecione un usuario para editarlo.");
             }
             else
             {
