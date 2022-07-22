@@ -33,12 +33,7 @@ namespace FarmaciaBotiquin
         {
             usuarios.BuscarUsuario(dgvUsuarios, txtBuscar.Text);
         }
-        private void pbCerrarProveedor_Click(object sender, EventArgs e)
-        {
-            Form formulario = new FrmPrincipal();
-            this.Close();
-            this.Show();
-        }
+        
         private bool VerificarParametros()
         {
 
@@ -129,6 +124,13 @@ namespace FarmaciaBotiquin
                     limpiezaMax();
                 }
             }
+        }
+
+        private void pbCerrar_Click(object sender, EventArgs e)
+        {
+            Form formulario = new FrmPrincipal();
+            this.Close();
+            this.Show();
         }
     }
 }
