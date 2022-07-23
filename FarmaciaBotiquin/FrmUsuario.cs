@@ -83,6 +83,8 @@ namespace FarmaciaBotiquin
             if (e.RowIndex >= 0)
             {
                 DataGridViewRow row = dgvUsuarios.Rows[e.RowIndex];
+                usuarios.IdUsuario = int.Parse(row.Cells["IdUsuario"].Value.ToString());
+
                 txtUsuario.Text = row.Cells["Usuario"].Value.ToString();
                 txtContraseña.Text = row.Cells["Contra"].Value.ToString();
                 cmbEmpleado.Text = row.Cells["Empleado"].Value.ToString();
