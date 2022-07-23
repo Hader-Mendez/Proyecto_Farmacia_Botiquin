@@ -59,7 +59,7 @@ namespace FarmaciaBotiquin
 
         private void pbFactura_Click(object sender, EventArgs e)
         {
-            Form formulario = new Form();
+            Form formulario = new FrmFactura();
             this.Hide();
             formulario.ShowDialog();
             this.Show();
