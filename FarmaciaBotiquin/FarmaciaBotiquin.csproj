@@ -71,7 +71,6 @@
     <Compile Include="DetalleFactura.Designer.cs">
       <DependentUpon>DetalleFactura.cs</DependentUpon>
     </Compile>
-    <Compile Include="EmailServices\MasterEmailServive.cs" />
     <Compile Include="FrmCliente.cs">
       <SubType>Form</SubType>
     </Compile>

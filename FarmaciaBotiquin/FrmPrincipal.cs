@@ -78,6 +78,7 @@ namespace FarmaciaBotiquin
             Form formulario = new FrmLogin();
             this.Hide();
             formulario.ShowDialog();
+            this.Close();
             
         }
     }

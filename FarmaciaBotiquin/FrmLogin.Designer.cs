@@ -146,7 +146,7 @@
             // llbRecuperar
             // 
             this.llbRecuperar.AutoSize = true;
-            this.llbRecuperar.Location = new System.Drawing.Point(89, 194);
+            this.llbRecuperar.Location = new System.Drawing.Point(72, 194);
             this.llbRecuperar.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.llbRecuperar.Name = "llbRecuperar";
             this.llbRecuperar.Size = new System.Drawing.Size(147, 13);

@@ -63,7 +63,7 @@ namespace FarmaciaBotiquin
 
         private void llbRecuperar_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-
+            MessageBox.Show("Por favor Comuniquese con el administrador", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
     }
 }
