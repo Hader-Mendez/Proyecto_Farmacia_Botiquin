@@ -27,7 +27,7 @@ namespace FarmaciaBotiquin
         private void Inicializar()
         {
             usuarios.MostrarUsuario(dgvUsuarios);
-            dgvUsuarios.Columns["IdUsuario"].Visible = false;
+            //dgvUsuarios.Columns["IdUsuario"].Visible = false;
         }
 
         private void txtBuscar_TextChanged(object sender, EventArgs e)

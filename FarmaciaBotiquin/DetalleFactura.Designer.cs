@@ -50,20 +50,20 @@
             // txtCant
             // 
             this.txtCant.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCant.Location = new System.Drawing.Point(115, 411);
-            this.txtCant.Margin = new System.Windows.Forms.Padding(2);
+            this.txtCant.Location = new System.Drawing.Point(153, 506);
+            this.txtCant.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtCant.MaxLength = 25;
             this.txtCant.Name = "txtCant";
-            this.txtCant.Size = new System.Drawing.Size(148, 32);
+            this.txtCant.Size = new System.Drawing.Size(196, 38);
             this.txtCant.TabIndex = 22;
             // 
             // pbCerrar
             // 
             this.pbCerrar.Image = ((System.Drawing.Image)(resources.GetObject("pbCerrar.Image")));
-            this.pbCerrar.Location = new System.Drawing.Point(579, 2);
-            this.pbCerrar.Margin = new System.Windows.Forms.Padding(2);
+            this.pbCerrar.Location = new System.Drawing.Point(772, 2);
+            this.pbCerrar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pbCerrar.Name = "pbCerrar";
-            this.pbCerrar.Size = new System.Drawing.Size(52, 58);
+            this.pbCerrar.Size = new System.Drawing.Size(69, 71);
             this.pbCerrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbCerrar.TabIndex = 4;
             this.pbCerrar.TabStop = false;
@@ -72,10 +72,10 @@
             // pbLogo
             // 
             this.pbLogo.Image = ((System.Drawing.Image)(resources.GetObject("pbLogo.Image")));
-            this.pbLogo.Location = new System.Drawing.Point(9, 2);
-            this.pbLogo.Margin = new System.Windows.Forms.Padding(2);
+            this.pbLogo.Location = new System.Drawing.Point(12, 2);
+            this.pbLogo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pbLogo.Name = "pbLogo";
-            this.pbLogo.Size = new System.Drawing.Size(114, 58);
+            this.pbLogo.Size = new System.Drawing.Size(152, 71);
             this.pbLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbLogo.TabIndex = 3;
             this.pbLogo.TabStop = false;
@@ -86,10 +86,9 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(4, 414);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(5, 510);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(107, 26);
+            this.label1.Size = new System.Drawing.Size(138, 32);
             this.label1.TabIndex = 23;
             this.label1.Text = "Cantidad";
             // 
@@ -99,68 +98,72 @@
             this.lbNombre.BackColor = System.Drawing.Color.Transparent;
             this.lbNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbNombre.ForeColor = System.Drawing.Color.White;
-            this.lbNombre.Location = new System.Drawing.Point(7, 450);
-            this.lbNombre.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lbNombre.Location = new System.Drawing.Point(9, 554);
             this.lbNombre.Name = "lbNombre";
-            this.lbNombre.Size = new System.Drawing.Size(80, 26);
+            this.lbNombre.Size = new System.Drawing.Size(102, 32);
             this.lbNombre.TabIndex = 11;
             this.lbNombre.Text = "Precio";
             // 
             // txtPrecio
             // 
             this.txtPrecio.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPrecio.Location = new System.Drawing.Point(115, 447);
-            this.txtPrecio.Margin = new System.Windows.Forms.Padding(2);
+            this.txtPrecio.Location = new System.Drawing.Point(153, 550);
+            this.txtPrecio.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtPrecio.MaxLength = 25;
             this.txtPrecio.Name = "txtPrecio";
-            this.txtPrecio.Size = new System.Drawing.Size(148, 32);
+            this.txtPrecio.Size = new System.Drawing.Size(196, 38);
             this.txtPrecio.TabIndex = 1;
             // 
             // btnFacturar
             // 
             this.btnFacturar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnFacturar.Location = new System.Drawing.Point(542, 454);
-            this.btnFacturar.Margin = new System.Windows.Forms.Padding(2);
+            this.btnFacturar.Location = new System.Drawing.Point(723, 559);
+            this.btnFacturar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnFacturar.Name = "btnFacturar";
-            this.btnFacturar.Size = new System.Drawing.Size(80, 30);
+            this.btnFacturar.Size = new System.Drawing.Size(107, 37);
             this.btnFacturar.TabIndex = 7;
             this.btnFacturar.Text = "Facturar";
             this.btnFacturar.UseVisualStyleBackColor = true;
+            this.btnFacturar.Click += new System.EventHandler(this.btnFacturar_Click);
             // 
             // dgvDetalleFactura
             // 
+            this.dgvDetalleFactura.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgvDetalleFactura.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.dgvDetalleFactura.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvDetalleFactura.Location = new System.Drawing.Point(11, 19);
-            this.dgvDetalleFactura.Margin = new System.Windows.Forms.Padding(2);
+            this.dgvDetalleFactura.Location = new System.Drawing.Point(15, 23);
+            this.dgvDetalleFactura.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dgvDetalleFactura.Name = "dgvDetalleFactura";
             this.dgvDetalleFactura.ReadOnly = true;
             this.dgvDetalleFactura.RowHeadersWidth = 51;
             this.dgvDetalleFactura.RowTemplate.Height = 24;
             this.dgvDetalleFactura.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvDetalleFactura.Size = new System.Drawing.Size(600, 277);
+            this.dgvDetalleFactura.Size = new System.Drawing.Size(800, 341);
             this.dgvDetalleFactura.TabIndex = 0;
             this.dgvDetalleFactura.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvClientes_CellContentClick);
+            this.dgvDetalleFactura.CellMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dgvDetalleFactura_CellMouseClick);
             // 
             // pnRight
             // 
             this.pnRight.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(147)))), ((int)(((byte)(147)))));
             this.pnRight.Controls.Add(this.dgvDetalleFactura);
-            this.pnRight.Location = new System.Drawing.Point(9, 64);
-            this.pnRight.Margin = new System.Windows.Forms.Padding(2);
+            this.pnRight.Location = new System.Drawing.Point(12, 79);
+            this.pnRight.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pnRight.Name = "pnRight";
-            this.pnRight.Size = new System.Drawing.Size(624, 317);
+            this.pnRight.Size = new System.Drawing.Size(832, 390);
             this.pnRight.TabIndex = 5;
             // 
             // btnEditar
             // 
             this.btnEditar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEditar.Location = new System.Drawing.Point(542, 420);
-            this.btnEditar.Margin = new System.Windows.Forms.Padding(2);
+            this.btnEditar.Location = new System.Drawing.Point(723, 517);
+            this.btnEditar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnEditar.Name = "btnEditar";
-            this.btnEditar.Size = new System.Drawing.Size(80, 30);
+            this.btnEditar.Size = new System.Drawing.Size(107, 37);
             this.btnEditar.TabIndex = 8;
             this.btnEditar.Text = "Editar";
             this.btnEditar.UseVisualStyleBackColor = true;
+            this.btnEditar.Click += new System.EventHandler(this.btnEditar_Click);
             // 
             // pnleft
             // 
@@ -175,18 +178,19 @@
             this.pnleft.Controls.Add(this.btnFacturar);
             this.pnleft.Controls.Add(this.txtPrecio);
             this.pnleft.Location = new System.Drawing.Point(0, 0);
-            this.pnleft.Margin = new System.Windows.Forms.Padding(2);
+            this.pnleft.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pnleft.Name = "pnleft";
-            this.pnleft.Size = new System.Drawing.Size(645, 510);
+            this.pnleft.Size = new System.Drawing.Size(860, 628);
             this.pnleft.TabIndex = 4;
             // 
             // DetalleFactura
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(642, 503);
+            this.ClientSize = new System.Drawing.Size(856, 619);
             this.Controls.Add(this.pnleft);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "DetalleFactura";
             this.Text = "DetalleFactura";
             ((System.ComponentModel.ISupportInitialize)(this.pbCerrar)).EndInit();
