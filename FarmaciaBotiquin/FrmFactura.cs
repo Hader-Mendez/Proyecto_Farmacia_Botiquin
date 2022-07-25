@@ -58,7 +58,7 @@ namespace FarmaciaBotiquin
         {
             Form formulario = new DetalleFactura();
             this.Close();
-            formulario.Show();
+            this.Show();
         }
     }
 }

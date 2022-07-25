@@ -75,8 +75,9 @@ namespace FarmaciaBotiquin
         private void btnFacturar_Click(object sender, EventArgs e)
         {
             FrmFactura frmFactura = new FrmFactura();
+            this.Hide();
             frmFactura.ShowDialog();
-            this.Close();
+            this.Show();
         }
 
         public void EditarBFactura()
