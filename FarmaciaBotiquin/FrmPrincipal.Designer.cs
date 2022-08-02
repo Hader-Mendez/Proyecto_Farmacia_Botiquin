@@ -43,7 +43,7 @@
             this.pbUsuario = new System.Windows.Forms.PictureBox();
             this.pbFactura = new System.Windows.Forms.PictureBox();
             this.pbProveedor = new System.Windows.Forms.PictureBox();
-            this.pcFactura = new System.Windows.Forms.PictureBox();
+            this.pcPuesto = new System.Windows.Forms.PictureBox();
             this.pbProducto = new System.Windows.Forms.PictureBox();
             this.pbEmpleado = new System.Windows.Forms.PictureBox();
             this.pbCliente = new System.Windows.Forms.PictureBox();
@@ -54,7 +54,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pbUsuario)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbFactura)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbProveedor)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pcFactura)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcPuesto)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbProducto)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbEmpleado)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbCliente)).BeginInit();
@@ -108,7 +108,7 @@
             this.pnContenedor.Controls.Add(this.pbUsuario);
             this.pnContenedor.Controls.Add(this.pbFactura);
             this.pnContenedor.Controls.Add(this.pbProveedor);
-            this.pnContenedor.Controls.Add(this.pcFactura);
+            this.pnContenedor.Controls.Add(this.pcPuesto);
             this.pnContenedor.Controls.Add(this.pbProducto);
             this.pnContenedor.Controls.Add(this.pbEmpleado);
             this.pnContenedor.Controls.Add(this.pbCliente);
@@ -243,17 +243,18 @@
             this.pbProveedor.TabStop = false;
             this.pbProveedor.Click += new System.EventHandler(this.pbProveedor_Click);
             // 
-            // pcFactura
+            // pcPuesto
             // 
-            this.pcFactura.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(97)))), ((int)(((byte)(112)))));
-            this.pcFactura.Image = ((System.Drawing.Image)(resources.GetObject("pcFactura.Image")));
-            this.pcFactura.Location = new System.Drawing.Point(512, 266);
-            this.pcFactura.Margin = new System.Windows.Forms.Padding(2);
-            this.pcFactura.Name = "pcFactura";
-            this.pcFactura.Size = new System.Drawing.Size(110, 123);
-            this.pcFactura.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pcFactura.TabIndex = 26;
-            this.pcFactura.TabStop = false;
+            this.pcPuesto.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(97)))), ((int)(((byte)(112)))));
+            this.pcPuesto.Image = ((System.Drawing.Image)(resources.GetObject("pcPuesto.Image")));
+            this.pcPuesto.Location = new System.Drawing.Point(512, 266);
+            this.pcPuesto.Margin = new System.Windows.Forms.Padding(2);
+            this.pcPuesto.Name = "pcPuesto";
+            this.pcPuesto.Size = new System.Drawing.Size(110, 123);
+            this.pcPuesto.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pcPuesto.TabIndex = 26;
+            this.pcPuesto.TabStop = false;
+            this.pcPuesto.Click += new System.EventHandler(this.pcPuesto_Click);
             // 
             // pbProducto
             // 
@@ -314,7 +315,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pbUsuario)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbFactura)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbProveedor)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pcFactura)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcPuesto)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbProducto)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbEmpleado)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbCliente)).EndInit();
@@ -337,7 +338,7 @@
         private System.Windows.Forms.PictureBox pbUsuario;
         private System.Windows.Forms.PictureBox pbFactura;
         private System.Windows.Forms.PictureBox pbProveedor;
-        private System.Windows.Forms.PictureBox pcFactura;
+        private System.Windows.Forms.PictureBox pcPuesto;
         private System.Windows.Forms.PictureBox pbProducto;
         private System.Windows.Forms.PictureBox pbEmpleado;
         private System.Windows.Forms.PictureBox pbCliente;

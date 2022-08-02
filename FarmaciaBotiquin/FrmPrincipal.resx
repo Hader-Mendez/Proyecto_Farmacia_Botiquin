@@ -381,7 +381,7 @@
   <data name="pbCerrarPrinci.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DgAACw4BQL7hQQAACc5JREFUeF7tnWeINlcZhtcee41gwRbFXomgYvSHFUWDEsUfMWIv2AsqFkSwa0xU
+        DAAACwwBP0AiyAAACc5JREFUeF7tnWeINlcZhtcee41gwRbFXomgYvSHFUWDEsUfMWIv2AsqFkSwa0xU
         YgkoRLBBEksEjRUbKhbsjRh7r7F374vPxf3We8fznPPMvDPzngsuWPb79szMc3bfOfU5O1vIjeXJ8svy
         9/+Rr0+SN5KdlXIReYr8h/zXAf5dvkpeWHZWBJX/Qekq3fkB2X8JVsSrpavoIV8pOyuAd/7Qx/5B8jq4
         oewsHBp8roJLPFF2Fs5XpKvcEr8kOwvnd9JVbonnyc7CcRUbsbNwXKVG7CwcV6kROwvHVWrEzsJxlRqx
@@ -598,7 +598,7 @@
         +SzqDVJbAAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="pcFactura.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="pcPuesto.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAIMAAACDCAYAAACunahmAAAABGdBTUEAALGPC/xhBQAAC3NJREFUeF7t
         3XWMLEsVx/HF3f3hFoI93CFBAgQnwRKc4PBwS9CHe7DgEtzd3eHh7nlAcHd3fp+Fubn3vprdnZ7u3e6Z

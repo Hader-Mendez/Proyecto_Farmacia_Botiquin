@@ -78,5 +78,13 @@ namespace FarmaciaBotiquin
         {
 
         }
+
+        private void pcPuesto_Click(object sender, EventArgs e)
+        {
+            Form formulario = new FrmPuesto();
+            this.Hide();
+            formulario.ShowDialog();
+            this.Show();
+        }
     }
 }
