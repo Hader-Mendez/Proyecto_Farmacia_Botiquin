@@ -33,6 +33,7 @@
             this.pbLogo = new System.Windows.Forms.PictureBox();
             this.pbCerrarPrinci = new System.Windows.Forms.PictureBox();
             this.pnContenedor = new System.Windows.Forms.Panel();
+            this.lbProducto = new System.Windows.Forms.Label();
             this.lbUsuario = new System.Windows.Forms.Label();
             this.lbPuesto = new System.Windows.Forms.Label();
             this.lbFactura = new System.Windows.Forms.Label();
@@ -46,7 +47,6 @@
             this.pbProducto = new System.Windows.Forms.PictureBox();
             this.pbEmpleado = new System.Windows.Forms.PictureBox();
             this.pbCliente = new System.Windows.Forms.PictureBox();
-            this.lbProducto = new System.Windows.Forms.Label();
             this.pnPrincial.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbCerrarPrinci)).BeginInit();
@@ -118,6 +118,19 @@
             this.pnContenedor.Name = "pnContenedor";
             this.pnContenedor.Size = new System.Drawing.Size(816, 517);
             this.pnContenedor.TabIndex = 1;
+            this.pnContenedor.Paint += new System.Windows.Forms.PaintEventHandler(this.pnContenedor_Paint);
+            // 
+            // lbProducto
+            // 
+            this.lbProducto.AutoSize = true;
+            this.lbProducto.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbProducto.ForeColor = System.Drawing.Color.White;
+            this.lbProducto.Location = new System.Drawing.Point(446, 227);
+            this.lbProducto.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lbProducto.Name = "lbProducto";
+            this.lbProducto.Size = new System.Drawing.Size(94, 24);
+            this.lbProducto.TabIndex = 36;
+            this.lbProducto.Text = "Producto";
             // 
             // lbUsuario
             // 
@@ -241,7 +254,6 @@
             this.pcFactura.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pcFactura.TabIndex = 26;
             this.pcFactura.TabStop = false;
-            this.pcFactura.Click += new System.EventHandler(this.pcFactura_Click);
             // 
             // pbProducto
             // 
@@ -281,18 +293,6 @@
             this.pbCliente.TabIndex = 23;
             this.pbCliente.TabStop = false;
             this.pbCliente.Click += new System.EventHandler(this.pbCliente_Click);
-            // 
-            // lbProducto
-            // 
-            this.lbProducto.AutoSize = true;
-            this.lbProducto.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbProducto.ForeColor = System.Drawing.Color.White;
-            this.lbProducto.Location = new System.Drawing.Point(446, 227);
-            this.lbProducto.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.lbProducto.Name = "lbProducto";
-            this.lbProducto.Size = new System.Drawing.Size(94, 24);
-            this.lbProducto.TabIndex = 36;
-            this.lbProducto.Text = "Producto";
             // 
             // FrmPrincipal
             // 

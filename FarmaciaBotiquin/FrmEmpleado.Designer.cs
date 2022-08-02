@@ -71,7 +71,7 @@
             this.pnleft.Name = "pnleft";
             this.pnleft.Size = new System.Drawing.Size(377, 518);
             this.pnleft.TabIndex = 0;
-            this.pnleft.Paint += new System.Windows.Forms.PaintEventHandler(this.pnleft_Paint);
+
             // 
             // pbCerrar
             // 
@@ -95,7 +95,7 @@
             this.pbLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbLogo.TabIndex = 3;
             this.pbLogo.TabStop = false;
-            this.pbLogo.Click += new System.EventHandler(this.pbLogo_Click);
+
             // 
             // gbEmpleado
             // 
@@ -118,7 +118,7 @@
             this.gbEmpleado.Size = new System.Drawing.Size(350, 428);
             this.gbEmpleado.TabIndex = 0;
             this.gbEmpleado.TabStop = false;
-            this.gbEmpleado.Enter += new System.EventHandler(this.gbEmpleado_Enter);
+
             // 
             // lbPuesto
             // 
@@ -132,7 +132,6 @@
             this.lbPuesto.Size = new System.Drawing.Size(93, 26);
             this.lbPuesto.TabIndex = 16;
             this.lbPuesto.Text = "Puesto:";
-            this.lbPuesto.Click += new System.EventHandler(this.lbPuesto_Click);
             // 
             // cmbEstado
             // 
@@ -143,7 +142,7 @@
             this.cmbEstado.Name = "cmbEstado";
             this.cmbEstado.Size = new System.Drawing.Size(194, 34);
             this.cmbEstado.TabIndex = 6;
-            this.cmbEstado.SelectedIndexChanged += new System.EventHandler(this.cmbEstado_SelectedIndexChanged);
+            
             // 
             // cmbPuesto
             // 
@@ -154,7 +153,7 @@
             this.cmbPuesto.Name = "cmbPuesto";
             this.cmbPuesto.Size = new System.Drawing.Size(194, 34);
             this.cmbPuesto.TabIndex = 5;
-            this.cmbPuesto.SelectedIndexChanged += new System.EventHandler(this.cmbPuesto_SelectedIndexChanged);
+           
             // 
             // lbEstado
             // 
@@ -168,7 +167,6 @@
             this.lbEstado.Size = new System.Drawing.Size(93, 26);
             this.lbEstado.TabIndex = 15;
             this.lbEstado.Text = "Estado:";
-            this.lbEstado.Click += new System.EventHandler(this.lbEstado_Click);
             // 
             // lbTelefono
             // 
@@ -182,7 +180,6 @@
             this.lbTelefono.Size = new System.Drawing.Size(110, 26);
             this.lbTelefono.TabIndex = 14;
             this.lbTelefono.Text = "Telefono:";
-            this.lbTelefono.Click += new System.EventHandler(this.lbTelefono_Click);
             // 
             // lbCorreo
             // 
@@ -196,7 +193,6 @@
             this.lbCorreo.Size = new System.Drawing.Size(91, 26);
             this.lbCorreo.TabIndex = 13;
             this.lbCorreo.Text = "Correo:";
-            this.lbCorreo.Click += new System.EventHandler(this.lbCorreo_Click);
             // 
             // lbApellido
             // 
@@ -210,7 +206,6 @@
             this.lbApellido.Size = new System.Drawing.Size(117, 26);
             this.lbApellido.TabIndex = 12;
             this.lbApellido.Text = "Apellidos:";
-            this.lbApellido.Click += new System.EventHandler(this.lbApellido_Click);
             // 
             // lbNombre
             // 
@@ -224,7 +219,6 @@
             this.lbNombre.Size = new System.Drawing.Size(115, 26);
             this.lbNombre.TabIndex = 11;
             this.lbNombre.Text = "Nombres:";
-            this.lbNombre.Click += new System.EventHandler(this.lbNombre_Click);
             // 
             // txtTelefonoE
             // 
@@ -235,7 +229,7 @@
             this.txtTelefonoE.Name = "txtTelefonoE";
             this.txtTelefonoE.Size = new System.Drawing.Size(194, 32);
             this.txtTelefonoE.TabIndex = 4;
-            this.txtTelefonoE.TextChanged += new System.EventHandler(this.txtTelefonoE_TextChanged);
+
             this.txtTelefonoE.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtTelefonoE_KeyPress);
             // 
             // txtCorreoE
@@ -247,7 +241,7 @@
             this.txtCorreoE.Name = "txtCorreoE";
             this.txtCorreoE.Size = new System.Drawing.Size(320, 32);
             this.txtCorreoE.TabIndex = 3;
-            this.txtCorreoE.TextChanged += new System.EventHandler(this.txtCorreoE_TextChanged);
+            
             // 
             // txtApellidoE
             // 
@@ -258,7 +252,7 @@
             this.txtApellidoE.Name = "txtApellidoE";
             this.txtApellidoE.Size = new System.Drawing.Size(320, 32);
             this.txtApellidoE.TabIndex = 2;
-            this.txtApellidoE.TextChanged += new System.EventHandler(this.txtApellidoE_TextChanged);
+            
             this.txtApellidoE.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtApellidoE_KeyPress);
             // 
             // txtNombreE
@@ -270,7 +264,7 @@
             this.txtNombreE.Name = "txtNombreE";
             this.txtNombreE.Size = new System.Drawing.Size(320, 32);
             this.txtNombreE.TabIndex = 1;
-            this.txtNombreE.TextChanged += new System.EventHandler(this.txtNombreE_TextChanged);
+          
             this.txtNombreE.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNombreE_KeyPress);
             // 
             // btnEditar
@@ -309,7 +303,7 @@
             this.dgvEmpleados.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvEmpleados.Size = new System.Drawing.Size(622, 423);
             this.dgvEmpleados.TabIndex = 0;
-            this.dgvEmpleados.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvEmpleados_CellContentClick);
+   
             this.dgvEmpleados.CellMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dgvEmpleados_CellMouseClick);
             // 
             // txtBuscar
@@ -333,7 +327,7 @@
             this.lbBuscar.Size = new System.Drawing.Size(63, 20);
             this.lbBuscar.TabIndex = 12;
             this.lbBuscar.Text = "Buscar:";
-            this.lbBuscar.Click += new System.EventHandler(this.lbBuscar_Click);
+           
             // 
             // pnRight
             // 
@@ -349,7 +343,7 @@
             this.pnRight.Name = "pnRight";
             this.pnRight.Size = new System.Drawing.Size(643, 518);
             this.pnRight.TabIndex = 1;
-            this.pnRight.Paint += new System.Windows.Forms.PaintEventHandler(this.pnRight_Paint);
+           
             // 
             // FrmEmpleado
             // 

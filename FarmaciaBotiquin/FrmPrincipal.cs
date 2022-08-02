@@ -62,14 +62,6 @@ namespace FarmaciaBotiquin
             Form formulario = new DetalleFactura();
             this.Hide();
             formulario.ShowDialog();
-            //this.Show();
-        }
-
-        private void pcFactura_Click(object sender, EventArgs e)
-        {
-            Form formulario = new FrmPuesto();
-            this.Hide();
-            formulario.ShowDialog();
             this.Show();
         }
 
@@ -80,6 +72,11 @@ namespace FarmaciaBotiquin
             formulario.ShowDialog();
             this.Close();
             
+        }
+
+        private void pnContenedor_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
